@@ -21,7 +21,11 @@ module.exports = (net) ->
   connections = []
 
   width = 5
+<<<<<<< HEAD
   height = 2
+=======
+  height = 3
+>>>>>>> master
   size = 0.2
   info =
     error: 0

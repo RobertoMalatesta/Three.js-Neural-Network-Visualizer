@@ -6,7 +6,11 @@ xorData = require('./xor');
 
 data = threeData;
 
+<<<<<<< HEAD
 batchSize = 5;
+=======
+batchSize = 1;
+>>>>>>> master
 
 learningRate = 0.5;
 
@@ -22,7 +26,11 @@ net = null;
 
 trainingOptions = null;
 
+<<<<<<< HEAD
 hiddenLayers = [4, 4];
+=======
+hiddenLayers = [4];
+>>>>>>> master
 
 net = new brain.NeuralNetwork({
   hiddenLayers: data.hiddenLayers || void 0
