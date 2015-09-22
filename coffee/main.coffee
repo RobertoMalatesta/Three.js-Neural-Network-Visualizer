@@ -3,7 +3,7 @@ xorData   = require('./xor')
 # threeData = require('./threesLeg')
 data = threeData
 
-batchSize = 1
+batchSize = 5
 learningRate = 0.5
 iterations = 100000
 currentIteration = 0
@@ -11,7 +11,7 @@ error = Infinity
 intervalID = 0
 net = null
 trainingOptions = null
-hiddenLayers = [4]
+hiddenLayers = [4, 4]
 
 net = new brain.NeuralNetwork
   hiddenLayers: data.hiddenLayers || undefined
